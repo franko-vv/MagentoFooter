@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <TestApp_FooterRewrite>
+            <active>true</active>
+            <codePool>local</codePool>
+        </TestApp_FooterRewrite>
+    </modules>
+</config>

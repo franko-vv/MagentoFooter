@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <TestApp_FooterAtTheTop>
+            <version>0.1.0</version>
+        </TestApp_FooterAtTheTop>
+    </modules>
+    <global>
+        <page>
+            <layouts>
+                <homepage_layout translate="label">
+                    <label>Homepage Layout</label>
+                    <template>page/1column.phtml</template>
+                </homepage_layout>
+            </layouts>
+        </page>
+    </global>
+</config>
