@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<layout>
+    <cms_index_index>
+        <reference name="content">
+            <block type="TestApp_Field/getNewField" name="homepage" template="field/field.phtml"></block>
+        </reference>
+    </cms_index_index>
+</layout>
