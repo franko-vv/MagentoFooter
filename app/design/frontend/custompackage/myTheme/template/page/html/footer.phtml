@@ -26,10 +26,10 @@
 ?>
 <div class="footer-container">
     <div class="footer">
+
+        <?php echo $this->getLayout()->createBlock('core/template')->setTemplate('field/field.phtml')->toHtml(); ?>
         <?php echo $this->getChildHtml() ?>
-
-        <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('footer_new_name')->toHtml();?>
-
+        
         <address class="copyright"><?php echo $this->getCopyright() ?></address>
     </div>
 </div>
