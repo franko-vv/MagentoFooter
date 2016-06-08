@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <TestApp_Field>
+            <version>0.0.1</version>
+        </TestApp_Field>
+    </modules>
+    <global>
+        <blocks>
+            <TestApp_Field>
+                <class>TestApp_Field_Block</class>
+            </TestApp_Field>
+        </blocks>
+
+        <models>
+            <TestApp_Field>
+                <class>TestApp_Field_Model</class>
+            </TestApp_Field>
+        </models>
+    </global>
+</config>
